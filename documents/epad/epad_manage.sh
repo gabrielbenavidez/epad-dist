@@ -1309,7 +1309,7 @@ var_array_allEpadContainerNames=(epad_lite epad_js epad_dicomweb epad_keycloak e
   			fi
 		else
 			cd $var_path
-  			git clone https://github.com/RubinLab/epad-dist.git
+  			git clone https://github.com/gabrielbenavidez/epad-dist.git
 		fi
 		#echo "var_response :$var_response "
 		#echo "var_reinstalling : $var_reinstalling"
@@ -1324,7 +1324,7 @@ var_array_allEpadContainerNames=(epad_lite epad_js epad_dicomweb epad_keycloak e
   			echo "copying epad-dist repo from git"
 			rm -rf "$var_path/$var_epadDistLocation"
 			cd $var_path
-  			git clone https://github.com/RubinLab/epad-dist.git
+  			git clone https://github.com/gabrielbenavidez/epad-dist.git
 		else
 			parse_yml_sections
 			#echo "needymlupdate : $needymlupdate"

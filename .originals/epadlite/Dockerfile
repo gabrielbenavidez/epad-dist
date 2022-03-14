@@ -34,7 +34,7 @@ USER node
 RUN mkdir -p /home/node/app
 WORKDIR /home/node/app
 
-RUN git clone https://github.com/RubinLab/epadlite.git /home/node/app/
+RUN git clone https://github.com/gabrielbenavidez/epadlite.git /home/node/app/
 
 
 # Install app dependencies
