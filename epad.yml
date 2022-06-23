@@ -1,4 +1,4 @@
-host: 10.0.1.11
+host: demo.itsdev.infotechsoft.com
 mode: lite
 config: environment
 ontologyname: YOUR_ONTOLOGY_NAME
